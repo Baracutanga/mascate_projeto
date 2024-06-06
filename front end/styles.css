@@ -62,16 +62,18 @@ button:hover {
 
 h1 {
     color: #353204;
+    margin: 0px;
+    font-size: 45pt;
 }
 
 #minhaDiv {
+    display: flex;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
     background-color: #DBB92C;
     box-shadow: 0 8px 8px rgba(236, 233, 233, 0.1);
-    width: 130px;
-    height: 50px; 
-    border-width: 2px;
-    border-style: solid; 
-    border-color: black;
+    width: 250px;
+    height: 87px;
 }
 
 
