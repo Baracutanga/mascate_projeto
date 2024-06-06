@@ -1,18 +1,61 @@
 body {
-    font-family: "jost";
+    height: 100%;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    background-image: url('https://www.pe.senac.br/wp-content/uploads/2016/03/DSC_0007.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 form {
-    width: 920px;
-    height: 340pt;
-    background-color: #DBB92C;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+    align-items: center;
+    background-color: rgba(219, 185, 44, 0.8);
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(149, 86, 28, 1);
+
 }
 
 .inputs {
-    color: #000000;
-    font-size: 20pt;
-    margin-top: 5px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
