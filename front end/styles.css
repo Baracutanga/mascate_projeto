@@ -1,0 +1,18 @@
+body {
+    font-family: "jost";
+}
+
+form {
+    width: 920px;
+    height: 340pt;
+    background-color: #DBB92C;
+    padding: 10px;
+}
+
+.inputs {
+    color: #000000;
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+

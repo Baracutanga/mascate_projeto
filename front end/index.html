@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Jost', sans-serif;
+            background-image: url('https://www.pe.senac.br/wp-content/uploads/2016/03/DSC_0007.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(219, 185, 44, 0.8);
+
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid rgba(149, 86, 28, 1);
+
+        }
+
+        .inputs {
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="datetime"] {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <title>Pedidos</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <main class="inputs">
+                <label for="inpt-nome">Nome completo:</label>
+                <br>
+                <input type="text" name="nome" id="inpt-nome">
+            </main>
+            <main class="inputs">
+                <label for="inpt-qntd-pessoas">Reserva para quantas pessoas?</label>
+                <br>
+                <input type="text" name="qntd-pessoas" id="inpt-qntd-pessoas">
+            </main>
+            <main class="inputs">
+                <label for="inpt-dia">Dia desejado:</label>
+                <br>
+                <input type="date" name="dia" id="inpt-dia">
+            </main>
+            <main class="inputs">
+                <label for="inpt-horario">Horario desejado:</label>
+                <br>
+                <input type="datetime" name="horario" id="inpt-horario">
+            </main>
+            <main class="inputs">
+                <button type="submit">Enviar</button>
+            </main>
+        </form>
+    </div>
+</body>
+
+</html>
