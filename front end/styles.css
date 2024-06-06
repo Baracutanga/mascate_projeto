@@ -64,6 +64,8 @@ h1 {
     color: #353204;
     margin: 0px;
     font-size: 45pt;
+    font-weight: 400;
+    font-style: italic
 }
 
 #minhaDiv {
