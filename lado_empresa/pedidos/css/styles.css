@@ -1,8 +1,8 @@
 body {
     font-family: "jost";
-    background-color: rgb(244, 218, 111);
-    background-image: url(https://www.pe.senac.br/wp-content/uploads/2016/03/DSC_0007.jpg);
-    background: linear-gradient(rgba(0,0,0,0.5));
+    /* background-color: rgb(244, 218, 111); */
+    background-image:url(https://www.pe.senac.br/wp-content/uploads/2016/03/DSC_0007.jpg);
+    background-color: linear-gradient(rgba(0,0,0,0.8));
     background-size: cover;
     margin: 0px;
 }
@@ -46,9 +46,10 @@ form {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     padding: 10px;
-    width: 1000px;
-    height: 400px;
+    width: 900px;
+    height: fit-content;
     background-color: rgb(219, 185, 44, 0.8);
     border: solid 3px #95561C;
     border-radius: 5px;
@@ -78,7 +79,7 @@ img {
     width: 12%;
 }
 
-button {
+#bAdd {
     display: flex;
     align-items: center;
     width:fit-content;

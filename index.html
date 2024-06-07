@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="botao">
+        <p>clique</p>
+    </button>
+    <div id="paragrafo-add">
+    </div>
+    <script>
+        const botao = document.getElementById("botao")
+
+        const para = document.createElement("p")
+        const inputText = document.createElement("input")
+        inputText.type = "text"
+
+        botao.addEventListener("click", botaoAdd)
+
+        function botaoAdd() {
+            para.innerText = "ola"
+            document.getElementById("paragrafo-add").appendChild(para)
+            document.getElementById("paragrafo-add").appendChild(inputText)
+        }
+    </script>
+</body>
+
+</html>
