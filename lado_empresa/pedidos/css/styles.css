@@ -48,7 +48,7 @@ form {
     margin-right: auto;
     margin-bottom: 10px;
     padding: 10px;
-    width: 900px;
+    width: fit-content;
     height: fit-content;
     background-color: rgb(219, 185, 44, 0.8);
     border: solid 3px #95561C;
@@ -89,4 +89,9 @@ img {
     font-family: "jost";
     color:  rgba(84, 56, 20, 0.5);
     font-size: 12pt;
+}
+
+#bAdd p:hover {
+    text-shadow: 2px 1px 2px rgba(0,0,0,0.2);
+    transition: text-shadow 0.1s ease-out 0.1s;
 }
