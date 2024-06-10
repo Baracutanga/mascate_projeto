@@ -10,31 +10,38 @@
     <title>Pedido</title>
 </head>
 <body>
-    <header id="titulos">
-        <h1 id="mascate-nome">Mascate</h1>
-        <div id="pedido-box">
-            <h1 id="pedidos-titulo">Pedidos</h1>
-        </div>
-    </header>
-    <form action="" id="formulario">
-        <main class="inputs">
-            <label for="pedido" id="label-pedido">Pedido:</label>
-            <input type="text" name="inpt-pedido" id="pedido">
-        </main>
-        <main class="inputs">
-            <label for="quantidade" id="label-quantidade">Quantidade:</label>
-            <input type="number" name="inpt-qntd" id="quantidade">
-        </main>
-        <main class="inputs">
-            <label for="obs" id="label-obs">Observações:</label>
-            <br>
-            <textarea name="area-obs" id="obs"></textarea>
-        </main>
-        <button type="button" id="bAdd">
-            <img src="img/add.png" alt="add">
-            <p>Adicionar mais um pedido</p>
-        </button>
-    </form>
+    <div id="mascate-nome">
+        <h1>Mascate</h1>
+    </div>
+    <main id="geral">
+        <header id="titulos">
+            <div id="pedido-box">
+                <h1 id="pedidos-titulo">Pedidos</h1>
+            </div>
+        </header>
+        <form action="" id="formulario">
+            <main>
+                <main class="inputs">
+                    <label for="pedido" id="label-pedido">Pedido:</label>
+                    <input type="text" name="inpt-pedido" id="pedido">
+                </main>
+                <main class="inputs">
+                    <label for="quantidade" id="label-quantidade">Quantidade:</label>
+                    <input type="number" name="inpt-qntd" id="quantidade">
+                </main>
+                <main class="inputs">
+                    <label for="obs" id="label-obs">Observações:</label>
+                    <br>
+                    <textarea name="area-obs" id="obs"></textarea>
+                </main>
+                <button type="button" id="bAdd">
+                    <img src="img/add.png" alt="add">
+                    <p>Adicionar mais um pedido</p>
+                </button>
+            </main>
+            <input type="button" value="Enviar" id="btn-enviar">
+        </form>
+    </main>
     <!-- No processo de fazer o JS funcionar :') -->
     <script src="script.js"></script>    
 </body>

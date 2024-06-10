@@ -1,6 +1,7 @@
 document.getElementById("bAdd").addEventListener('click', buttonAdd);
 
 function buttonAdd() {
+
     const linha = document.createElement("hr")
 
     const main1 = document.createElement("main")
@@ -72,11 +73,9 @@ function buttonAdd() {
     main3.appendChild(labelObs)
     main3.appendChild(br)
     main3.appendChild(textArea)
-    // !! Arrumar problema do botão !!
     document.getElementById("formulario").appendChild(button)
     button.appendChild(bImg)
     button.appendChild(bPara)
-    // !! ========================= !!
 
     document.getElementById("formulario").appendChild(main1)
     document.getElementById("formulario").appendChild(main2)
@@ -84,7 +83,10 @@ function buttonAdd() {
     document.getElementById("formulario").appendChild(button)
 
     document.getElementById("bAdd").style.display = 'none'
+
+    // Click do segundo pedido
     button.addEventListener('click', function () {
+
         const linha = document.createElement("hr")
 
         const main1 = document.createElement("main")
@@ -156,11 +158,9 @@ function buttonAdd() {
         main3.appendChild(labelObs)
         main3.appendChild(br)
         main3.appendChild(textArea)
-        // !! Arrumar problema do botão !!
         document.getElementById("formulario").appendChild(button)
         button.appendChild(bImg)
         button.appendChild(bPara)
-        // !! ========================= !!
 
         document.getElementById("formulario").appendChild(main1)
         document.getElementById("formulario").appendChild(main2)

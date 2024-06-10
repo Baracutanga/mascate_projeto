@@ -7,6 +7,12 @@ body {
     margin: 0px;
 }
 
+#geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #titulos {
     display: flex;
     flex-direction: column;
@@ -19,9 +25,14 @@ h1 {
 }
 
 #mascate-nome {
-    font-size: 35pt;
-    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    font-size: 20pt;
     color: #353204;
+}
+
+#mascate-nome h1 {
+    font-weight: 500;
 }
 
 #pedidos-titulo {
@@ -32,20 +43,30 @@ h1 {
     color: #543814;
 }
 
+#btn-enviar {
+    width: 90px;
+    height: 40px;
+    font-family: "jost";
+    font-size: 15pt;
+    background-color: #543814;
+    font-weight: 600;
+    color: #DB8923;
+}
+
 #pedido-box {
     width: 310px;
     height: 116px;
     padding: 10px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     background-color: #DB8923;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-bottom: 10px;
     padding: 10px;
     width: fit-content;
@@ -69,6 +90,8 @@ input {
     border-radius: 5px;
     border: none;
 }
+
+
 
 textarea {
     border-radius: 5px;
