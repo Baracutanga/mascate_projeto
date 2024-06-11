@@ -81,6 +81,7 @@ function buttonAdd() {
     document.getElementById("formulario").appendChild(main2)
     document.getElementById("formulario").appendChild(main3)
     document.getElementById("formulario").appendChild(button)
+    document.getElementById("formulario").appendChild(document.getElementById("btn-enviar"))
 
     document.getElementById("bAdd").style.display = 'none'
 
@@ -166,6 +167,7 @@ function buttonAdd() {
         document.getElementById("formulario").appendChild(main2)
         document.getElementById("formulario").appendChild(main3)
         document.getElementById("formulario").appendChild(button)
+        document.getElementById("formulario").appendChild(document.getElementById("btn-enviar"))
 
         document.getElementById("bAdd2").style.display = 'none'
     })
