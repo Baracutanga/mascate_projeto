@@ -9,7 +9,6 @@ body {
 
 #geral {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -54,19 +53,20 @@ h1 {
 }
 
 #pedido-box {
+    position: relative;
+    top: 25px;
     width: 310px;
     height: 116px;
     padding: 10px;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     background-color: #DB8923;
+    box-shadow: 2px 3px 2px rgba(0,0,0,0.2);
 }
 
 form {
     display: flex;
     flex-direction: column;
-    /* margin-left: auto;
-    margin-right: auto; */
     margin-bottom: 10px;
     padding: 10px;
     width: fit-content;
@@ -74,6 +74,7 @@ form {
     background-color: rgb(219, 185, 44, 0.8);
     border: solid 3px #95561C;
     border-radius: 5px;
+    box-shadow: 2px 3px 2px rgba(0,0,0,0.2); 
 }
 
 input {
